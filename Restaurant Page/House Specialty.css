@@ -1,0 +1,74 @@
+html{
+    background: lightslategray;
+    margin: 0 100px;
+    width: 90%;
+}
+
+section{
+    background: lightsteelblue;
+}
+div#img{
+    display: table;
+    float: left;
+    margin: 10px;
+}
+
+
+header{
+    background: lightsteelblue;
+    display: table-cell;
+    width: 20%;
+}
+
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: Black;
+    line-height: 50px;
+}
+
+section#main-info{
+    display: block;
+    width: 25%;
+    float: right;
+}
+
+.menu{
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background: darkgray;
+}
+
+ul.menu{
+    margin-top: 15px;
+}
+
+.menu li{
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-variant: small-caps;
+}
+
+.menu a:hover{
+    background: lightsteelblue;
+}
+
+img#TacoBowl{
+    float: right;
+}
+
+ul#Ingredients{
+    list-style: square;
+}
+
+body{
+    background: lightsteelblue;
+}
